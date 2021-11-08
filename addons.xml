@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="repository.amber.matrix" name="Amber Repository - Matrix" provider-name="bsoriano" version="1.0.2">
+<addons><addon id="repository.amber.nexus" name="Amber Repository - Nexus" provider-name="bsoriano" version="1.0.0">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0" />
 	</requires>
 	<extension name="Amber Repo" point="xbmc.addon.repository">
-		<dir minversion="18.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.matrix/master</datadir>
+		<dir minversion="19.9.0">
+			<info compressed="false">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.nexus/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/bartolomesoriano/repo.amber.nexus/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/bartolomesoriano/repo.amber.nexus/master</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Amber skin for Matrix</summary>
-		<description>Matrix Repository for Amber</description>
+		<summary>Amber skin for Nexus</summary>
+		<description>Nexus Repository for Amber</description>
 		<platform>all</platform>
-		<news>[I]v1.0.2[/I][CR]- Fix GitHub URLd</news>
+		<news>[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="bsoriano, Jester, Joethepartylion, Pecinko" version="3.4.31">
+</addon><addon id="skin.amber" name="Amber" provider-name="bsoriano, Jester, Joethepartylion, Pecinko" version="3.6.0">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -45,14 +45,8 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.4.31 (28-10-2021)
-		- Shelf Info for 2 shelves together
-		- Episodes List button in OSD
-		- Misc. fixes
-		3.4.30 (17-10-2021)
-		- Show Info for shelf items
-		- Search movies by tag
-		- Many misc. fixes
+        <news>3.6.0 (08-11-2021)
+		- Initial release for Kodi Nexus
         </news>
         <summary lang="ca_ES">Sense bloatware, només els fitxers multimèdia amb una interfície fàcil de navegar</summary>
         <summary lang="da_DK">Ingen bloatware, kun dine medier med en brugerflade der er let at navigere</summary>
@@ -69,6 +63,7 @@
         <summary lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare</summary>
         <summary lang="nl_NL">Geen bloatware, alleen jouw media in een makkelijk te navigeren omgeving</summary>
         <summary lang="pt_BR">Sem bloatware, apenas sua mídia com uma interface fácil de navegar</summary>
+        <summary lang="ru_RU">No bloatware, just your media with an easy to navigate interface</summary>
         <description lang="ca_ES">Sense bloatware, només els fitxers multimèdia amb una interfície fàcil de navegar.[CR]Utilitza algunes textures d'skins Mediastream i Aeon.</description>
         <description lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer einfach zu navigierenden Oberfläche.[CR]Benutzt Texturen aus den Mediastream und Aeon skins.</description>
         <description lang="en_AU">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>

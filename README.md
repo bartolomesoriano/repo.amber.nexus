@@ -1,2 +1,2 @@
-# repo.amber.matrix
-Repository for the Matrix version of the Amber skin
+# repo.amber.nexus
+Repository for the Nexus version of the Amber skin
