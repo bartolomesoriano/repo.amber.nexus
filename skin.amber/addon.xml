@@ -29,7 +29,8 @@
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
         <news>3.6.0 (08-11-2021)
-		- Initial release for Kodi Nexus
+		- Initial release for Nexus
+		- Add Show/Hide password button to keyboard dialog
         </news>
         <summary lang="ca_ES">Sense bloatware, només els fitxers multimèdia amb una interfície fàcil de navegar</summary>
         <summary lang="da_DK">Ingen bloatware, kun dine medier med en brugerflade der er let at navigere</summary>
