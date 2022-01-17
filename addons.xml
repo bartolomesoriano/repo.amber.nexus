@@ -16,7 +16,7 @@
 		<platform>all</platform>
 		<news>[I]v1.0.0[/I][CR]- Initial Release</news>
 	</extension>
-</addon><addon id="skin.amber" name="Amber" provider-name="bsoriano, Jester, Joethepartylion, Pecinko" version="3.6.1">
+</addon><addon id="skin.amber" name="Amber" provider-name="bsoriano, Jester, Joethepartylion, Pecinko" version="3.6.2">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.favourites" version="7.1.1" />
@@ -45,7 +45,9 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.6.1 (12-10-2022)
+        <news>3.6.2 (17-01-2022)
+		- Include missing file
+		3.6.1 (12-10-2022)
 		- Include all new features/fixes of Matrix version
 		3.6.0 (08-11-2021)
 		- Initial release for Nexus
