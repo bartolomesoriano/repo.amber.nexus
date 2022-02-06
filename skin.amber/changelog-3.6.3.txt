@@ -1,0 +1,10 @@
+3.6.3 (06-02-2022)
+- Bring up to par with Amber for Matrix changes
+- Include skinning changes for Nexus
+3.6.2 (17-01-2022)
+- Include missing script-skinviewtypes-includes.xml file
+3.6.1 (12-10-2022)
+- Include all new features/fixes of Matrix version
+3.6.0 (08-11-2021)
+- Initial release for Nexus
+- Add Show/Hide password button to keyboard dialog
